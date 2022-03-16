@@ -1,0 +1,35 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class DIO {
+    public DIO() {
+    }
+
+    public static void main(String[] args) throws IOException {
+        Scanner leitor = new Scanner(System.in);
+        int N = leitor.nextInt();
+        int soma = 0;
+        int cont = 0;
+
+        for(int i = 0; i < N; ++i) {
+            int X = leitor.nextInt();
+
+            for(int Y = leitor.nextInt(); cont < Y; ++X) {
+                if (X % 2 != 0) {
+                    soma += X;
+                    ++cont;
+                }
+            }
+
+            System.out.println(soma);
+            soma = 0;
+            cont = 0;
+        }
+
+    }
+}

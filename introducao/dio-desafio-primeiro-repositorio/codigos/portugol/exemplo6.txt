@@ -1,0 +1,28 @@
+programa
+{
+	/*
+	funcao inicio()
+	{
+		inteiro contador=0
+		cadeia cesta[][]={{"Pera","100"},{"Jaca","200"},{"Maça","900"},{"Uva","89"}}
+
+		faca{
+			escreva("Produto: " + cesta[contador][0] + "\n" + "Quantidade: " + cesta[contador][1] + "\n" )
+			contador ++
+		}enquanto (contador<=3)
+
+	*/
+
+	funcao inicio()
+	{
+		inteiro contador = 0
+		cadeia cliente[][]={{"João","São Paulo","(11) 9999-5241"},{"Maria","Ribeirão Preto","(11) 9999-5555"},{"Ana","Manaus","(92) 9999-8574"}}
+
+		faca{
+			escreva ("Cliente: " + cliente[contador][0] +"\t" +"cidade: " + cliente[contador][1] + "\t" + "telefone: " + cliente[contador][2] + "\n")
+			contador ++
+		}enquanto (contador<=2)
+	}
+	
+	
+}

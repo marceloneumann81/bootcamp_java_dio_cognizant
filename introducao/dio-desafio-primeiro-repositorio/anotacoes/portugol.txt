@@ -1,0 +1,6 @@
+exercícios realizados durante o treinamento utilizaram:
+
+ - se
+ - se....senao
+ - faca.. enquanto
+ - escolha... caso
